@@ -36,3 +36,9 @@ class Rack
 end
 
 puts "Hello World"
+
+puts "Test Commit"
+
+def Hello
+  puts "Hello"
+end
