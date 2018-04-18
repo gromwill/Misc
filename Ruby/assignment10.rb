@@ -32,7 +32,7 @@ file_name = ARGV[1]
 ## Read the file that was given by the user on the command line
 dictionary_array = IO.readlines(file_name)
 
-line_found = dictionary_search(word, dictionary_array)
+line_found = dictionary_search(word, dictionary_array) + 1
 
 ## The dictionary_search returns a integer value of the line
 ## the word was found on
