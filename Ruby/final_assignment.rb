@@ -36,5 +36,3 @@ class Rack
 end
 
 puts "Hello World"
-
-## Comment
