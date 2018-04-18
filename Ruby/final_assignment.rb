@@ -7,7 +7,6 @@ class Spot_light
   end
   
   
-  
 end
 
 class Fixed_light
@@ -32,7 +31,16 @@ end
 class Rack
   def initialize(number, size)
   
+  @number = number
+  @size = size
+  
   end
+  
+  def print
+    
+    
+    
+  end
+
 end
 
-puts "Hello World"
